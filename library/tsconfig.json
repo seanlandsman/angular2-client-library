@@ -11,14 +11,15 @@
     "declaration": true,
     "suppressImplicitAnyIndexErrors": true,
     "outDir": "lib/",
-    "typeRoots": [
-      "node_modules/@types/"
-    ]
+    "lib": [
+      "dom",
+      "es6"
+    ],
+    "sourceRoot": "src"
   },
-  "files": [
-    "src/cell.component.ts",
-    "src/grid.component.ts",
-    "src/grid.module.ts"
+  "exclude": [
+    "node_modules",
+    "main.d.ts"
   ],
   "angularCompilerOptions": {
     "genDir": "aot"
