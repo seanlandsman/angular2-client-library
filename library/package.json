@@ -1,0 +1,39 @@
+{
+  "name": "angular2-library",
+  "version": "0.0.1",
+  "description": "Angular 2 Library",
+  "main": "main.js",
+  "typings": "./main.d.ts",
+  "scripts": {
+    "clean:aot": "rimraf aot && rimraf lib",
+    "build:aot": "ngc -p tsconfig.json",
+    "clean-build:aot": "npm run clean:aot && npm run build:aot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seanlandsman/angular2-client-library"
+  },
+  "author": "Sean Landsman <sean@thelandsmans.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seanlandsman/angular2-client-library/issues"
+  },
+  "homepage": "www.seanlandsman.com",
+  "dependencies": {
+    "@angular/compiler": "2.3.0",
+    "@angular/compiler-cli": "2.3.0",
+    "@angular/core": "2.3.0",
+    "@angular/common": "2.3.0",
+    "@angular/forms": "2.3.0",
+    "@angular/platform-browser": "2.3.0",
+
+    "@types/core-js": "^0.9.34",
+    "core-js": "^2.4.1",
+    "reflect-metadata": "^0.1.3",
+    "systemjs": "0.19.27",
+    "rxjs": "5.0.0-rc.4",
+    "zone.js": "^0.7.2",
+    "bootstrap":"3.3.7",
+    "typescript": "2.0.3"
+  }
+}
