@@ -17,10 +17,7 @@
     ],
     "sourceRoot": "src"
   },
-  "exclude": [
-    "node_modules",
-    "main.d.ts"
-  ],
+  "files": [ "main.ts"],
   "angularCompilerOptions": {
     "genDir": "aot"
   }

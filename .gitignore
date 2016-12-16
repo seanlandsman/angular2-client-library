@@ -1,1 +1,5 @@
 node_modules
+library/aot/
+library/lib/
+client/.vscode
+client/aot/
